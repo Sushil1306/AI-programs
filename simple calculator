@@ -1,0 +1,33 @@
+while True:
+    print("1.Addition")
+    print("2.subtraction")
+    print("3.multiplication")
+    print("4.division")
+    print("5.Exit")
+    print("Enter your choice:")
+    c=int(input())
+    if c>=1 and c<=4:
+        print("\nEnter two numbers:")
+        a=float(input())
+        b=float(input())
+    if c==1:
+        ans=a+b
+        print("\nresult=",ans)
+    elif c==2:
+        ans=a-b
+        print("\nresult=",ans)
+    elif c==3:
+        ans=a*b
+        print("\nresult=",ans)
+    elif c==4:
+        ans=a/b
+        print("\nresult=",ans)
+    elif c==5:
+        break
+    
+    else:
+        print("Error accured")
+
+    print("--------------------------------------")
+    
+    
